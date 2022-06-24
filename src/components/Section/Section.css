@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+
+.Section__Container {
+    position: relative;
+    display: block;
+}
+
+.Section__header {
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-1);
+    color: var(--font-color-3);
+    text-align: center;
+}
+
+/* To do - 
+
+*/
+.Section__Container,
+.Section__header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.Section__line {
+    height: 2px;
+    width: 100px;
+    background-color: var(--accent-1);
+    margin: 0 auto;
+}
+
+.p__description {
+    margin: 50px 0px;
+    text-align: justify;
+    font-family: var(--font-family-2);
+    color: var(--font-color-1);
+    font-size: var(--font-size-4);
+    line-height: 1.6;
+}
+
+.Section__header-parallax {
+    position: relative;
+    /* background-position: 0px 0px; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 600px;
+}
+
+
+.img1 {
+    background-image: url('https://lovespictures.com/1.jpg');
+    height: 600px;
+}
+
+.img2 {
+    background-image: url('https://lovespictures.com/pe/3.jpg');
+    /* https://images.pexels.com/photos/2506209/pexels-photo-2506209.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 */
+}
+
+.img3 {
+    background-image: url('https://lovespictures.com/pe/5.jpg');
+    /* https://images.pexels.com/photos/772520/pexels-photo-772520.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500   height: 80%; */
+}
+
+.img4 {
+    background-image: url('https://lovespictures.com/pe/2.jpg');
+    /* height: 60%; */
+}
+
+.img5 {
+    background-image: url('https://lovespictures.com/4.jpg');
+}
+
+.line {
+    height: 2px;
+    width: 100px;
+    background-color: var(--accent-1);
+    margin: 0 auto;
+}

@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+/* Global reset */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+:root {
+  --background-1: #ffff;
+  --background-2: #f1f1eecc;
+  --background-3: #e8e316cc;
+  --background-4: #68656899;
+  --background-5: url(./components/img/grid.png),linear-gradient(to bottom,#c4c4c4 0,#fff 100%);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  --accent-1: #e8e316cc;
+  --accent-2: #68656899;
+  --accent-3: #adff2f;
+  --accent-4: #545455; 
+  --accent-5: #ffff;
+  --accent-6: #9c9c9c; 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  /* font */
+  --font-family-1: 'Roboto condensed', monospace;
+  --font-family-2: "DM Sans", sans-serif;
+  
+  --font-size-1: 55px;
+  --font-size-2: 34px;
+  --font-size-3: 22px;
+  --font-size-4: 16px;
+  --font-size-5: 12px;  
 
-.App-link {
-  color: #61dafb;
-}
+  --font-weight-1:800;
+  --font-weight-2:600;
+  --font-weight-3:400;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  --font-color-1: #545455;
+  --font-color-2: #ffff;
+  --font-color-3: #000;
+  --font-color-4: #8e8e8f;
+  
+
+  /* styling */
+  --box-shadow-1: 1px 1px 1px 1px #88848433;
+  --box-shadow-2: 0 12px 12px var(var(--accent-3));
+  --box-shadow-3: 0 0 6px #fb00ff99; 
+
+
+  /* Border */
+  --border-color-1: #888787;
+  --border-color-2: #fb00ff99; 
+
+  --border-style-1: 10px dotted;
+  --border-radius-1: 20px; 
+
+  /* to do - set to 10px */
+  --border-radius-2: 3px;
+
+  /* linier gradient */
+  /* --gradient-color-1: radial-gradient(circle, #fecacc 10%, #afd4ec 80%); 
+  --gradient-color-2: radial-gradient(circle, #afd4ec 10%, #fecacc 80%); */
+
 }
