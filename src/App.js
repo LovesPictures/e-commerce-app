@@ -1,5 +1,6 @@
 import './App.css';
 import {Header} from "./components/Header/Header";
+import {Card} from "./components/Card/Card";
 // import {Home} from "./components/Home/Home";
 // import {About } from "./components/About/About";
 // import {Projects } from "./components/Projects/Projects";
@@ -12,6 +13,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Card />
       {/* <Home />
       <About />
       <Projects  />

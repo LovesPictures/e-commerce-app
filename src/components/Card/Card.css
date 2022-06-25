@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #000000;
+}
+
+.wrapper {
+  margin: 2rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.Card {
+  border-radius: 0.2rem;
+  height: 16rem;
+  display: flex;
+  position: relative;
+  overflow:hidden;
+  background-color:#f8f8f8;
+}
+
+.Card__img{
+  height: 16rem;
+  margin-left: 0rem;
+  position: absolute;
+  left:-40px;
+  bottom: -10px;  ;
+}
+
+#CardB > .Card__img {
+  right:-20px;
+  left: auto;
+  }
+
+.Card__text {
+  margin-right: 0px;
+  position: relative;
+  text-align: right;  
+  position: absolute;
+  right: 0;
+  text-transform:uppercase;
+  bottom: 2rem;
+  margin: 0px 20px;
+}
+
+#CardB > .Card__text {
+  left: 0px;
+  right: auto;
+}
+
+
+.Card__title {
+  line-height: 1.4rem;
+  font: 1.2em "Josefin Sans", sans-serif;
+  text-align: right;
+  position: relative;
+  font-weight: 520;
+}
+
+.Card__description {
+  line-height: 1.4rem;
+  font: 1em "Josefin Sans", sans-serif;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 38rem));
+  }
+  .Card {
+    flex-direction: column;
+    text-align: right;
+
+  }
+}
