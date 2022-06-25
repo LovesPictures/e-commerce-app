@@ -23,6 +23,14 @@ export const Footer = () => {
 
          <a href='https://twitter.com/judithricketts' target="_blank" rel="noreferrer" > 
          <img className="Footer__icon" src={ Icons.iconTwitter}  alt="Twitter logo" /> </a>
+        
+
+        <a href='https://www.linkedin.com/in/lovespictures/' target="_blank" rel="noreferrer" > 
+         <img className="Footer__icon" src={ Icons.iconPinterest}  alt=" Pinterest logo" /> </a>
+       
+
+        <a href='https://www.linkedin.com/in/lovespictures/' target="_blank" rel="noreferrer" > 
+         <img className="Footer__icon" src={ Icons.iconFacebook}  alt="Facebook logo" /> </a>
         </ul>
         
         <h3>

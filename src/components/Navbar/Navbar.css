@@ -1,14 +1,12 @@
-/* .Header__navbar */
-header {
+
+.Header__navbar {
   font: var(--font-family-2);
   font-weight: var(--font-weight-3);
   position: sticky;
   top: 0;
   height: 70px;
-
   background: var(--background-2);
   image-rendering: pixelated;  
-  /* Anti-aliasing use even numbers  */
   background-size: 4px 4px;
   width: 100%;
   display: flex;
@@ -16,11 +14,9 @@ header {
   justify-content: center;
   box-shadow: var(--box-shadow-2);
   z-index: 10;
-  
 }
 
 /* spacing desktop links */
-/* .Header__navbar-desktop-links */
 .Header__navbar-desktopLinks {
   width: 90%;
   display: flex;
