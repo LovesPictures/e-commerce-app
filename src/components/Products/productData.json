@@ -1,38 +1,94 @@
 [
+
     {
-      "projectID": "001",
-      "img": "https://raw.githubusercontent.com/LovesPictures/baby-names-picker/main/example-screenshots/BN__completed__01.JPG",
-      "title": "Baby Names",
-      "description": "Make a React app which shows some baby names and lets you pick your favourites form the json data provided",
-      "linkGithub": "https://github.com/LovesPictures/baby-names-picker",
-      "linkNetlify": "https://jr-baby-names-picker.netlify.app"
+      "productID": "00001",
+      "img": "https://www.apple.com/uk/watch/home/images/overview/series-7/hero_s7__ep2maoos292e_large.jpg",
+      "title": "Backpack",
+      "Description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+      "price": "39",
+      "size": "Extra Large" "Large" "medium" "small" "extra small",
+      "color": "Pink" "Green" "Yellow",
+      "qty": "0",
+      "isLiked": "false"
     },
-  
     {
-      "projectID": "002",
-      "img": "https://github.com/LovesPictures/WowCakes/blob/master/img/WC__completed-03.jpg?raw=true",
-      "title": "Wow cakes!",
-      "description": "Responsive landing page designed for mobile first design approach followed by tablet and desktop, using CSS grid.",
-      "linkGithub": "https://github.com/LovesPictures/WowCakes",
-      "linkNetlify": "https://jude-wow-cakes.netlify.app"
+      "productID": "00002",
+      "img": "https://j.top4top.io/p_1925wl82q6.jpg",
+      "title": "Backpack",
+      "Description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+      "price": "39",
+      "size": "Extra Large" "Large" "medium" "small" "extra small",
+      "color": "Pink" "Green" "Yellow",
+      "qty": "0",
+      "isLiked": "false"
     },
-  
     {
-      "projectID": "003",
-      "img": "https://github.com/LovesPictures/cyf-hotel-react/blob/master/src/Image/Hotel__completed-03.PNG?raw=true",
-      "title": "Hotel React App",
-      "description": " Create a hotel reservation app where visitor can order food",
-      "linkGithub": "https://github.com/LovesPictures/cyf-hotel-react",
-      "linkNetlify": "https://cyf-jude-hotel-react.netlify.app/"
+      "productID": "00003",
+      "img": "https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2022/01/img_13.jpg ",
+      "title": "Backpack",
+      "Description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+      "price": "39",
+      "size": "Extra Large" "Large" "medium" "small" "extra small",
+      "color": "Pink" "Green" "Yellow",
+      "qty": "0",
+      "isLiked": "false"
     },
-  
     {
-      "projectID": "004",
-      "img": "https://user-images.githubusercontent.com/25634451/158079103-0f3c0d79-e8b4-4bf6-a979-cc91adccf438.png",
-      "title": "TV Listing App",
-      "description": " Create a TV listing app where visitor can shortlist and filter by episode",
-      "linkGithub": "https://github.com/LovesPictures/tv-show-dom-project_external_JSON",
-      "linkNetlify": "https://tv-show-dom-json.netlify.app/"
+      "productID": "00004",
+      "img": "https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_4.jpg",
+      "title": "Backpack",
+      "Description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+      "price": "39",
+      "size": "Extra Large" "Large" "medium" "small" "extra small",
+      "color": "Pink" "Green" "Yellow",
+      "qty": "0",
+      "isLiked": "false"
+    },
+    {
+      "productID": "00005",
+      "img": "https://thumbs.dreamstime.com/b/condenser-microphone-shock-mount-pop-shield-desk-stand-isolated-over-white-background-clipping-path-30112427.jpg",
+      "title": "Backpack",
+      "Description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+      "price": "39",
+      "size": "Extra Large" "Large" "medium" "small" "extra small",
+      "color": "Pink" "Green" "Yellow",
+      "qty": "0",
+      "isLiked": "false"
+    },
+    {
+      "productID": "00006",
+      "img": "https://g.top4top.io/p_19256ma7c3.jpg",
+      "title": "Backpack",
+      "Description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+      "price": "39",
+      "size": "Extra Large" "Large" "medium" "small" "extra small",
+      "color": "Pink" "Green" "Yellow",
+      "qty": "0",
+      "isLiked": "false"
+    },
+    {
+      "productID": "00007",
+      "img": "https://orbitvu.com/wp-content/uploads/2020/03/camera-side-img_packshot_1.jpg",
+      "title": "Backpack",
+      "Description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+      "price": "39",
+      "size": "Extra Large" "Large" "medium" "small" "extra small",
+      "color": "Pink" "Green" "Yellow",
+      "qty": "0",
+      "isLiked": "false"
+    },
+
+    {
+      "productID": "00008",
+      "img": "https://i.pinimg.com/236x/cf/5c/11/cf5c11969c12e3d82dfeb7e2eac33ef6--beats-headphones-wireless-headphones.jpg",
+      "title": "Backpack",
+      "Description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.",
+      "price": "39",
+      "size": "Extra Large" "Large" "medium" "small" "extra small",
+      "color": "Pink" "Green" "Yellow",
+      "qty": "0",
+      "isLiked": "false"
     }
-  ]
-  
+];
+
+

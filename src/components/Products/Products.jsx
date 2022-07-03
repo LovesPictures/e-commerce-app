@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Card } from "../Card/Card";
 
+// test data
+// import { productData } from "./productData";
+
 export const Products = async () => {
   const getProductData = async () => {
     try {

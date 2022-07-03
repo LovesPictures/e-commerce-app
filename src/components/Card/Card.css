@@ -1,19 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
-
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  color: #000000;
-}
-
-.wrapper {
+.Cards__container {
   margin: 2rem;
   display: grid;
   gap: 1rem;
@@ -26,43 +11,40 @@ body {
   height: 16rem;
   display: flex;
   position: relative;
-  overflow:hidden;
-  background-color:#f8f8f8;
+  overflow: hidden;
+  background: var(--background-2);
 }
 
-.Card__img{
+.Card__img {
   height: 16rem;
-  margin-left: 0rem;
   position: absolute;
-  left:-40px;
-  bottom: -10px;  ;
+  left: -40px;
+  bottom: -10px;
 }
 
-#CardB > .Card__img {
-  right:-20px;
+#CardB >.Card__img {
+  right: -20px;
   left: auto;
-  }
+}
 
-.Card__text {
+.Card__text-container {
   margin-right: 0px;
-  position: relative;
-  text-align: right;  
+  text-align: right;
   position: absolute;
   right: 0;
-  text-transform:uppercase;
+  text-transform: uppercase;
   bottom: 2rem;
   margin: 0px 20px;
 }
 
-#CardB > .Card__text {
+#CardB>.Card__text {
   left: 0px;
   right: auto;
 }
 
-
 .Card__title {
   line-height: 1.4rem;
-  font: 1.2em "Josefin Sans", sans-serif;
+  font: 1.2rem var(--font-family-1);
   text-align: right;
   position: relative;
   font-weight: 520;
@@ -70,14 +52,15 @@ body {
 
 .Card__description {
   line-height: 1.4rem;
-  font: 1em "Josefin Sans", sans-serif;
+  font: 1rem var(--font-family-1);
   font-weight: 600;
 }
 
 @media screen and (min-width: 600px) {
-  .wrapper {
+  .Cards__container {
     grid-template-columns: repeat(auto-fit, minmax(14rem, 38rem));
   }
+
   .Card {
     flex-direction: column;
     text-align: right;

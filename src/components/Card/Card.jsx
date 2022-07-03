@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Card/Card.css";
+import "./Card.css";
 
 
 export const Card = () => {
@@ -49,7 +49,7 @@ function CardContent (props) {
     //if the cards are divisible by 2 then give it styling for CardA if not apply styling for CardB
     <div className="Card " id={cardNumber % 2 === 0 ? 'CardA' : 'CardB' }>
       <img className="Card__img" src={props.img} alt="product" />
-      <div className="Card__text">
+      <div className="Card__text-container">
         <h2 className="Card__title">{props.title}</h2> 
         <p className="Card__description">{props.description}</p>
       </div>
