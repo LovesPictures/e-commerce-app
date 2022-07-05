@@ -35,6 +35,7 @@
   text-transform: uppercase;
   bottom: 2rem;
   margin: 0px 20px;
+  font: 1.2rem var(--font-family-1);
 }
 
 #CardB>.Card__text {
@@ -44,7 +45,7 @@
 
 .Card__title {
   line-height: 1.4rem;
-  font: 1.2rem var(--font-family-1);
+
   text-align: right;
   position: relative;
   font-weight: 520;

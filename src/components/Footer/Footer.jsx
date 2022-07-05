@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css";
+import "../Section/Section.css";
 
 // import icons form icons
 import Icons from "../img/Icons"
@@ -7,7 +8,7 @@ import Icons from "../img/Icons"
 
 export const Footer = () => {
   return (
-    <div id="Footer">
+    <div id="Footer">Footer
     <div className="Footer__header ">
     {/* <div className="Section__Container">  */}
         <ul className="Footer__ul">

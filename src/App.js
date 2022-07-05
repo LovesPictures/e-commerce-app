@@ -1,25 +1,32 @@
 import './App.css';
 import {Header} from "./components/Header/Header";
-import {Card} from "./components/Card/Card";
-// import {Home} from "./components/Home/Home";
-// import {About } from "./components/About/About";
-// import {Projects } from "./components/Projects/Projects";
-// import {Skills} from "./components/Skills/Skills";
-// import {Blog} from "./components/Blog/Blog";
-// import {Contact} from "./components/Contact/Contact";
+import {Banner} from "./components/Banner/Banner";
+import {CategoryCards} from "./components/CategoryCards/CategoryCards";
+import {ProductCards} from "./components/ProductCards/ProductCards";
+import {ProductFilter} from "./components/ProductFilter/ProductFilter";
+import {ProductPromo} from "./components/ProductPromo/ProductPromo";
+import {Collections} from "./components/Collections/Collections";
+import {Newsletter} from "./components/Newsletter/Newsletter";
+import {Contact} from "./components/Contact/Contact";
+import {HeadedList} from "./components/HeadedList/HeadedList";
+import {Payment} from "./components/Payment/Payment";
 import {Footer} from "./components/Footer/Footer";
 
 function App() {
   return (
     <div>
       <Header />
-      <Card />
-      {/* <Home />
-      <About />
-      <Projects  />
-      <Skills />
-      <Blog />
-      <Contact />*/}
+      <Banner/>
+      <CategoryCards/>
+      <ProductFilter/>
+      <ProductCards/>
+      <ProductPromo />
+      <CategoryCards/>
+      <Collections/>      
+      <Newsletter />
+      <Contact />
+      <HeadedList />
+      <Payment />      
       <Footer /> 
     </div>
   );

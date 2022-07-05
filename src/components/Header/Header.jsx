@@ -24,6 +24,8 @@ export const Header = () => {
   const [width ] = useWindowWidthAndHeight();
   // console.log(height);
   return (
+    // temporary id
+    <div id="Header">Header
     <header className="Header__navbar ">
       <div className="Header__navbar-desktopLinks">
         <Link to="Home" smooth={true} className="logo nav-link">
@@ -44,6 +46,7 @@ export const Header = () => {
         )}
       </div>
     </header>
+    </div>
   );
 };
 

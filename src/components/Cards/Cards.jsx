@@ -1,32 +1,34 @@
 import React from 'react';
-import "./Card.css";
+import "./Cards.css";
 
+import "../Section/Section.css";
+// import { categoryCardData } from "./categoryCardData";
 
-export const Card = () => {
+export const Cards = () => {
  
   //This need to go in a json file, then offline,called with fetch 
     return (
       <div className="wrapper">
-        <Card
+        <Cards
           img="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/Untitled-1.png"
           title="Bags"
           description="Fall Favorite • Bags"
           price="£ 45.00"
         />
   
-        <Card
+        <Cards
           img=" https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/Untitled-3.png"
           title="Bluetooth speakers"
           description="Loud • crisp sounds"
           price="£ 129.95"
         />
-        <Card
+        <Cards
           img="  https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/Untitled-4.png "
           title="Slim-Fit Demin"
           description="Demin • Versatile"
           price="24.99"
         />
-        <Card
+        <Cards
           img="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/Untitled-2.png"
           title="White Blouse"
           description="Blouse • Lacey"
@@ -39,9 +41,8 @@ export const Card = () => {
 
 // location? + issue here
 
-let cardNumber = 1
-
-function CardContent (props) {
+export const Card = ({props}) => {
+  let cardNumber = 1
   //incrementing the cards 
   cardNumber++;
   return (

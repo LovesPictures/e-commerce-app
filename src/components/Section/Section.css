@@ -85,3 +85,76 @@
     background-color: var(--accent-1);
     margin: 0 auto;
 }
+
+/* Area for Template - for the section area   -----------------------------------------*/
+
+
+#Header {
+    background-color: #fff;
+    border: 5px solid blue;
+    height: 10vh;     
+  } 
+
+  #Banner {
+    background-color: #fff;
+    border: 5px solid blue;
+    height: 50vh; 
+  } 
+
+  #CategoryCards {
+    background-color: #fff;
+    border: 5px solid blue;
+    height: 50vh;     
+  } 
+
+  #ProductFilter {
+    background-color: #fff;
+    border: 5px solid #ff00f2;
+    height: 10vh;     
+  } 
+
+  #ProductCards {
+    background-color: #e0e7ca;
+    border: 5px solid blue;
+    height: 100vh;  
+ } 
+ #ProductPromo {
+  background-color: #fff;
+  border: 5px solid #ff00f2;
+  height: 50vh;     
+} 
+
+#Collections{
+  background-color: pink;
+  border: 5px solid #ff00f2;
+  height: 50vh;     
+} 
+
+  #Newsletter {
+    background-color: #f9e6d2; 
+    height: 50vh; 
+  } 
+
+  #Contact {
+    background-color: #d7ecf6;
+    height: 50vh; 
+  }
+
+  #HeadedList {
+    background-color: #f9e6d2; 
+    height: 50vh; 
+  } 
+
+  #Payment {
+    background-color: pink;
+    height: 50vh;
+   position: relative; 
+  } 
+
+
+/* put socials in here */
+  #Footer {
+    background-color: #d7ecf6;
+    border: 5px solid black;
+    height: 20vh; 
+  }
