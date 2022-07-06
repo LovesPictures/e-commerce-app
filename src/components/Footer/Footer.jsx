@@ -35,7 +35,7 @@ export const Footer = () => {
         </ul>
         
         <h3>
-        &copy; Jude Ricketts 
+        &copy; by Jude Ricketts 
          {/* <a
           href="https://github.com/LovesPictures"
           target="_blank"

@@ -3,158 +3,145 @@
 
 
 .Section__Container {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 }
 
 .Section__header {
-    font-family: var(--font-family-1);
-    font-size: var(--font-size-1);
-    color: var(--font-color-3);
-    text-align: center;
+  font-family: var(--font-family-1);
+  font-size: var(--font-size-1);
+  color: var(--font-color-3);
+  text-align: center;
 }
 
-/* To do - 
-
-*/
 .Section__Container,
 .Section__header {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
-
 .Section__line {
-    height: 2px;
-    width: 100px;
-    background-color: var(--accent-1);
-    margin: 0 auto;
+  height: 2px;
+  width: 100px;
+  background-color: var(--accent-1);
+  margin: 0 auto;
 }
 
 .p__description {
-    margin: 50px 0px;
-    text-align: justify;
-    font-family: var(--font-family-2);
-    color: var(--font-color-1);
-    font-size: var(--font-size-4);
-    line-height: 1.6;
+  margin: 50px 0px;
+  text-align: justify;
+  font-family: var(--font-family-2);
+  color: var(--font-color-1);
+  font-size: var(--font-size-4);
+  line-height: 1.6;
 }
 
 .Section__header-parallax {
-    position: relative;
-    /* background-position: 0px 0px; */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    height: 600px;
+  position: relative;
+  /* background-position: 0px 0px; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 600px;
 }
 
+/* Background images -----------------------------------------*/
+/* .img1 {
+  background-image: url('../img/bgd-00.png');
+  height: 600px;
+} */
 
-.img1 {
-    background-image: url('https://lovespictures.com/1.jpg');
-    height: 600px;
-}
+ /*.img2 {
+  background-image: url('../img/2.jpg');  
+}*/
 
-.img2 {
-    background-image: url('https://lovespictures.com/pe/3.jpg');
-    /* https://images.pexels.com/photos/2506209/pexels-photo-2506209.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 */
-}
+  /*.img3 {
+ background-image: url('../img/3.jpg');  
+}*/
 
-.img3 {
-    background-image: url('https://lovespictures.com/pe/5.jpg');
-    /* https://images.pexels.com/photos/772520/pexels-photo-772520.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500   height: 80%; */
-}
+/*.img4 {
+   background-image: url('../img/6.jpg'); 
+}*/
 
-.img4 {
-    background-image: url('https://lovespictures.com/pe/2.jpg');
-    /* height: 60%; */
-}
-
-.img5 {
-    background-image: url('https://lovespictures.com/4.jpg');
-}
-
-.line {
-    height: 2px;
-    width: 100px;
-    background-color: var(--accent-1);
-    margin: 0 auto;
-}
-
-/* Area for Template - for the section area   -----------------------------------------*/
+ /* .img5 {
+ background-image: url('../img/5.jpg'); 
+} */
+ 
 
 
-#Header {
-    background-color: #fff;
-    border: 5px solid blue;
-    height: 10vh;     
-  } 
+/* Template the site ----------------------------------------------------------- */
 
-  #Banner {
-    background-color: #fff;
-    border: 5px solid blue;
+/* #Header {
+  background-color: #fff;
+  border: 5px solid blue;
+  height: 10vh;
+} */
+
+  /* #Banner {
+background-color: #fff;
     height: 50vh; 
-  } 
+  border: 5px solid blue;
+}*/
 
-  #CategoryCards {
-    background-color: #fff;
-    border: 5px solid blue;
-    height: 50vh;     
-  } 
+#CategoryCards {
+  background-color: #fff;
+  border: 5px solid blue;
+  height: 50vh;
+}
 
-  #ProductFilter {
-    background-color: #fff;
-    border: 5px solid #ff00f2;
-    height: 10vh;     
-  } 
-
-  #ProductCards {
-    background-color: #e0e7ca;
-    border: 5px solid blue;
-    height: 100vh;  
- } 
- #ProductPromo {
+#ProductFilter {
   background-color: #fff;
   border: 5px solid #ff00f2;
-  height: 50vh;     
-} 
+  height: 10vh;
+}
 
-#Collections{
+#ProductCards {
+  background-color: #e0e7ca;
+  border: 5px solid blue;
+  height: 100vh;
+}
+
+#ProductPromo {
+  background-color: #fff;
+  border: 5px solid #ff00f2;
+  height: 50vh;
+}
+
+#Collections {
   background-color: pink;
   border: 5px solid #ff00f2;
-  height: 50vh;     
-} 
+  height: 50vh;
+}
 
-  #Newsletter {
-    background-color: #f9e6d2; 
-    height: 50vh; 
-  } 
+#Newsletter {
+  background-color: #f9e6d2;
+  height: 50vh;
+}
 
-  #Contact {
-    background-color: #d7ecf6;
-    height: 50vh; 
-  }
+#Contact {
+  background-color: #d7ecf6;
+  height: 50vh;
+}
 
-  #HeadedList {
-    background-color: #f9e6d2; 
-    height: 50vh; 
-  } 
+#HeadedList {
+  background-color: #f9e6d2;
+  height: 50vh;
+}
 
-  #Payment {
-    background-color: pink;
-    height: 50vh;
-   position: relative; 
-  } 
-
+#Payment {
+  background-color: pink;
+  height: 50vh;
+  position: relative;
+}
 
 /* put socials in here */
-  #Footer {
-    background-color: #d7ecf6;
-    border: 5px solid black;
-    height: 20vh; 
-  }
+/* #Footer {
+  background-color: #d7ecf6;
+  border: 5px solid black;
+  height: 20vh;
+} */
