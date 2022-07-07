@@ -1,5 +1,15 @@
 import React, { useEffect, useState } from "react";
-import { Card } from "../Card/Card";
+import { Card } from "../Card/Cards";
+
+// test data
+// import { productData } from "./productData";
+
+/* 
+jsonbin
+hover over price info 
+upload product card 
+
+*/
 
 export const Products = async () => {
   const getProductData = async () => {

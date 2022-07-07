@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# e-commerce App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Testing the card structure 
+
+![My Image](./src/components/img/Cards__test-1.PNG)
+
 
 ## Available Scripts
 

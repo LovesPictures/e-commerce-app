@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css";
+import "../Section/Section.css";
 
 // import icons form icons
 import Icons from "../img/Icons"
@@ -7,7 +8,7 @@ import Icons from "../img/Icons"
 
 export const Footer = () => {
   return (
-    <div id="Footer">
+    <div id="Footer">Footer
     <div className="Footer__header ">
     {/* <div className="Section__Container">  */}
         <ul className="Footer__ul">
@@ -34,7 +35,7 @@ export const Footer = () => {
         </ul>
         
         <h3>
-        &copy; Jude Ricketts 
+        &copy; by Jude Ricketts 
          {/* <a
           href="https://github.com/LovesPictures"
           target="_blank"
