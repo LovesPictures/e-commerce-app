@@ -59,6 +59,8 @@ export const Banner = () => {
   );
 };
 
+
+// **this does not work onload
 let index = 0;
 let slides = document.querySelectorAll(".image__slides");
 let dot = document.querySelectorAll(".dot");
