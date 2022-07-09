@@ -21,7 +21,6 @@ function App() {
       <ProductFilter/>
       <ProductCards/>
       <ProductPromo />
-      <CategoryCards/>
       <Collections/>      
       <Newsletter />
       <Contact />

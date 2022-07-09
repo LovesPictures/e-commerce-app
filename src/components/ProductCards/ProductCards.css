@@ -1,12 +1,11 @@
-
-.Cards__container {
+  .Product__Cards-container {
     display: grid;
     gap: 1rem;
-    grid-template-columns: 1fr;  
-    justify-content: center;  
+    grid-template-columns: 1fr;
+    justify-content: center;
   }
   
-  .Card {
+  .Product__Card {
     border-radius: 0.2rem;
     height: 26rem;
     display: flex;
@@ -14,7 +13,7 @@
     overflow: hidden;
   }
   
-  .Card__img{
+  .Product__Card-img {
     height: 5rem;
     position: relative;
     height: 70%;
@@ -23,55 +22,126 @@
     object-fit: contain;
   }
   
-  .Card__text-container {
-    text-align: center;  
+  .Product__Card-text-Container {
+    text-align: center;
     position: absolute;
     width: 100%;
     bottom: 60px;
     font: 1.2rem var(--font-family-1);
   }
   
-  .Card__title {
+  .Product__Card-text-title {
     position: relative;
     font-weight: 520;
   }
   
-  .Card__description {
+  .Product__Card-text-description {
     line-height: 1.4rem;
     font-weight: 600;
   }
   
-  
   @media screen and (min-width: 500px) {
-    .Cards__container {
+    .Product__Cards-container {
       grid-template-columns: repeat(2, 1fr);
     }
-    .Card {
-       width: 20rem;
-       height: auto; 
-       object-fit: contain;
-    }
-  
-  }  
-  @media screen and (min-width: 769px) {
-    .Cards__container {
-      grid-template-columns: repeat(3, 1fr);
-       margin: 20px 100px;
-    }
-    .Card { 
-      width: 25rem;
-      height: auto; 
+    .Product__Card {
+      width: 20rem;
+      height: auto;
       object-fit: contain;
     }
+  }
   
-}
-   @media screen and (min-width: 1050px) {
-    .Cards__container {
+  @media screen and (min-width: 769px) {
+     .Product__Cards-container {
+      grid-template-columns: repeat(3, 1fr);
+      margin: 20px 100px;
+    }
+    .Product__Card {
+      width: 25rem;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+  
+  @media screen and (min-width: 1050px) {
+    .Product__Cards-container {
       grid-template-columns: repeat(4, 1fr);
-        padding: 20px 100px;
+      padding: 20px 100px;
     }
-    .Card { 
-        width: 30rem;
-       height: auto; 
+    .Product__Card {
+      width: 30rem;
+      height: auto;
     }
-}  
+  }
+  /*
+  320px — 480px: Mobile devices.
+  481px — 768px: iPads, Tablets.
+  769px — 1024px: Small screens, laptops.
+  1025px — 1200px: Desktops, large screens.
+  1201px and more — Extra large screens, TV.
+  
+  */
+  
+  /* object-fit: contain;
+} */
+
+.Card__text-container {
+  text-align: center;  
+  position: absolute;
+  width: 100%;
+  bottom: 60px;
+  font: 1.2rem var(--font-family-1);
+}
+
+.Card__title {
+  position: relative;
+  font-weight: 520;
+}
+
+.Card__description {
+  line-height: 1.4rem;
+  font-weight: 600;
+}
+
+
+@media screen and (min-width: 500px) {
+  .Cards__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .Card {
+     width: 20rem;
+     height: auto; 
+     object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .Cards__container {
+    grid-template-columns: repeat(3, 1fr);
+     margin: 20px 100px;
+  }
+  .Card { 
+    width: 25rem;
+    height: auto; 
+    object-fit: contain;
+  }
+  }
+  
+ @media screen and (min-width: 1050px) {
+  .Cards__container {
+    grid-template-columns: repeat(4, 1fr);
+      padding: 20px 100px;
+  }
+  .Card { 
+      width: 30rem;
+     height: auto; 
+  }
+  }
+/*
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV.
+
+*/
