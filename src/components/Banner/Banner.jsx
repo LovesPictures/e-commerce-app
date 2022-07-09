@@ -1,57 +1,73 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 
 import "./Banner.css";
 import "../Section/Section.css";
 
 export const Banner = () => {
+  const slideShowRef = useRef(null);
+
+  useEffect(() => {
+    if (slideShowRef.current) {
+      slideShowRef.current.classList.add("This");
+
+      let index = 0;
+      //instead of document....slideShowRef.current - methods of DOM elements 
+      let slides = slideShowRef.current.querySelectorAll(".image__slides");
+      let dot = slideShowRef.current.querySelectorAll(".dot");
+
+      changeSlide(index, slides,dot);
+    }
+  }, []);
+
   return (
     // <div>Banner</div>
     // <div id="Banner">Banner
 
     <div id="Banner">
-      <div class="Banner__container">
-        <div class="Banner__content">
+      <div className="Banner__container">
+        <div className="Banner__content">
           <img
-            class="bgd__image"
+            className="bgd__image"
             src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/hbg22.jpg"
             alt="#"
           />
-          {/* <img className="bgd__image" src="../img/home__1.png" alt="#" /> */}
-          <div class="animated__image-container">
-            <div class="image__slides">
+          {/* <img classNameName="bgd__image" src="../img/home__1.png" alt="#" /> */}
+
+          <div className="animated__image-container" ref={slideShowRef}>
+            <div className="image__slides">
               <img
                 src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/home_02_slide_1.png"
                 alt="#"
               />
             </div>
 
-            <div class="image__slides">
+            <div className="image__slides">
               <img
                 src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/home_02_slide_3.png"
                 alt="#"
               />
             </div>
 
-            <div class="image__slides">
+            <div className="image__slides">
               <img
                 src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2020/02/home_02_slide_2.png"
                 alt="#"
               />
             </div>
 
-            <div class="dot__container">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
+            <div className="dot__container">
+              <span className="dot"></span>
+              <span className="dot"></span>
+              <span className="dot"></span>
             </div>
           </div>
-          <div class="Headline__container">
-            <h1 class="Shop__name">COLLECTION</h1>
-            <div class="Headline__season">
+          <div className="Headline__container">
+            <h1 className="Shop__name">COLLECTION</h1>
+            <div className="Headline__season">
               Exclusive <span> Winter </span>
             </div>
-            <div class="Headline__strapline">New contemporary Fashion </div>
-            <div class="Headline__action">SHOP NOW </div>
+            <div className="Headline__strapline">New contemporary Fashion </div>
+            <div className="Headline__action">SHOP NOW </div>
           </div>
         </div>
       </div>
@@ -60,12 +76,7 @@ export const Banner = () => {
 };
 
 
-// **this does not work onload
-let index = 0;
-let slides = document.querySelectorAll(".image__slides");
-let dot = document.querySelectorAll(".dot");
-
-function changeSlide() {
+function changeSlide(index, slides, dot) {
   // Loop slides in both directions
   // Forward
   if (index > slides.length - 1) {
@@ -90,7 +101,7 @@ function changeSlide() {
   index++;
 
   // Waiting until change the next slide for 5 seconds
-  setTimeout(changeSlide, 5000);
+  setTimeout(() => changeSlide(index,slides,dot), 5000);
 }
 
-changeSlide();
+// changeSlide();
