@@ -91,7 +91,7 @@ background-color: #fff;
 #CategoryCards {
   background-color: #fff;
   border: 5px solid blue;
-  height: 50vh;
+  /* height: 50vh; */
 }
 
 #ProductFilter {
