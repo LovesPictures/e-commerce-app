@@ -28,7 +28,6 @@ body {
 
 /* general styling for template */
 .item {
-  /* background: #ffff00; */
   padding: 1rem;
   text-align: center;
   border: 2px solid pink;
@@ -36,8 +35,6 @@ body {
 
 .cardA {
   grid-area: cardA;
-  /* border: 10px solid pink; */
-  
 }
 
 .cardB {
@@ -52,7 +49,7 @@ body {
   grid-area: cardD;
 }
 
-/* tablet */
+/* tablet - medium  */
 @media (max-width: 800px) {
   .grid-container {
     margin: 0;
@@ -63,7 +60,7 @@ body {
       "cardA    cardD  cardB";
   }
 }
-/* tablet transition between 1080 - 1300? */
+/* tablet - large transition between 1080 - 1300? */
 @media (max-width: 1280px) {
     .grid-container {
       margin: 0;
@@ -75,8 +72,8 @@ body {
     }
   }
 
-/* Mobile */
-@media (max-width: 700px) {  
+/* Mobile - small */
+@media (max-width: 680px) {  
   .grid-container {
     margin: 0;
     grid-template-columns: 1fr;

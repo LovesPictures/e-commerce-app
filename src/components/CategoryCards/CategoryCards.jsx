@@ -7,6 +7,9 @@ export const CategoryCards = () => {
     <div id="CategoryCards">
 
 <div className="Category__Card-container">
+      
+      
+      
       <Card
         img="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/Untitled-1.png  "
         title="Bags"
@@ -37,20 +40,20 @@ export const CategoryCards = () => {
   );
 }
 
-let cardNumber = 1
+ let cardNumber = 1
 
 function Card(props) {
-  //incrementing the cards 
+  // incrementing the cards 
   cardNumber ++;
   return (
-    // modulo divisible by two e.g. everyother card do - if statment - 
-    //if the cards are divisible by 2 then give it styling for CardA if not apply styling for CardB
+    // modulo divisible by two e.g. every other card do - if statement - 
+    // if the cards are divisible by 2 then give it styling for CardA if not apply styling for CardB
     <div className="Category__Card " id={cardNumber % 2 === 0 ? 'Category__Card-A' : 'Category__Card-B' }>
-      <img src={props.img} className="Category__Card-img" />
-     <div className="Category__card-text-Container">
-        <h2 className="Category__Card-text-title">{props.title}</h2> 
+     <img src={props.img} alt="#"className="Category__Card-img" />
+      <div className="Category__card-text-Container">
+         <h2 className="Category__Card-text-title">{props.title}</h2> 
         <p className="Category__Card-text-description">{props.description}</p>
-      </div>
+       </div>
     </div>
   );
 }
