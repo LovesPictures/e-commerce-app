@@ -1,6 +1,6 @@
 .Card {
     border-radius: 0.2rem;
-    /* height: 16rem; */
+    height: 16rem;
     display: flex;
     position: relative;
     overflow: hidden;
@@ -9,7 +9,7 @@
   
   .Card__img {
     /* height: 16rem; */
-    position: absolute;
+    /* position: absolute; */
     left:-40px;
     bottom: -10px;  
   }
@@ -17,7 +17,7 @@
   .Card__text-container {
     margin-right: 0px;
     text-align: right;  
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     text-transform:uppercase;
     bottom: 2rem;

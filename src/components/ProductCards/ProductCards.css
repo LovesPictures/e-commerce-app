@@ -69,7 +69,7 @@
       padding: 20px 100px;
     }
     .Product__Card {
-      width: 30rem;
+      /* width: 30rem; */
       height: auto;
     }
   }
@@ -109,7 +109,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .Card {
-     width: 20rem;
+     /* width: 20rem; */
      height: auto; 
      object-fit: contain;
   }
@@ -121,7 +121,7 @@
      margin: 20px 100px;
   }
   .Card { 
-    width: 25rem;
+    /* width: 25rem; */
     height: auto; 
     object-fit: contain;
   }
@@ -133,7 +133,7 @@
       padding: 20px 100px;
   }
   .Card { 
-      width: 30rem;
+      /* width: 30rem; */
      height: auto; 
   }
   }
