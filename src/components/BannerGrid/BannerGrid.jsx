@@ -4,7 +4,7 @@ import { Card } from "../Card/Card";
 
 import "../Section/Section.css";
 
-export const BannerGrid = () => {
+export const BannerGrid = (props) => {
   return (
     <div className="grid-container">
 

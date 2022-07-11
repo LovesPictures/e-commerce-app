@@ -1,22 +1,9 @@
-html,
-body {
-  font-family: sans-serif;
-  padding: 0;
-  margin: 0;
-
-  line-height: 1.5;
-  /* color: #29394f; */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* height: 100vh; */
-}
-
 .grid-container {
   height: 50vh;
   margin: 0 15%;
   display: grid;
-  font-size: 1.5rem;
-  grid-gap: 0.4rem;
+  /* font-size: 1.5rem; */
+  grid-gap: 1rem;
   border: 5px solid green;
 
   /* desktop */
@@ -28,7 +15,7 @@ body {
 
 /* general styling for template */
 .item {
-  padding: 1rem;
+  /* padding: 1rem; */
   text-align: center;
   border: 2px solid pink;
 }
@@ -76,6 +63,7 @@ body {
 @media (max-width: 680px) {  
   .grid-container {
     margin: 0;
+    grid-gap: 0.5rem;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
