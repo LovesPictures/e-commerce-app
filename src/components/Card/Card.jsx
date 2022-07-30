@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Card.css";
-
+// move to cards --------------------------------------
 export const Card = (props) => {
   return (
     <div className="Card {props.type === 'A' ? 'Card--A' : 'Card--B'}">
