@@ -44,20 +44,19 @@ export const Card = ({ props }) => {
   //incrementing the cards
   cardNumber++;
   return (
-    // modulo divisible by two e.g. every other card do - if statement -
-    //if the cards are divisible by 2 then give it styling for CardA if not apply styling for CardB
+    // product cards
 
     // Banner grid
     <div className="Card " id={cardNumber % 2 === 0 ? "CardA" : "CardB"}>
       <img className="Card__img" src={props.img} alt="product" />
-      <div className="Card__text-container">
+      <div className="Card__text-container-b">
         <h2 className="Card__title">{props.title}</h2>
         <p className="Card__description">{props.description}</p>
       </div>
       {/* Map Contact  */}
       <div className="Card">
         <div className="Map"> {props.Map}</div>
-        <div className="Card__text-container">
+        <div className="Card__text-container-b">
           <h2 className="Card__text-Street">{props.Street}</h2>
           <span className="Card__text-county">{props.County}</span>
           <span className="Card__text-CountryCode">{props.CountryCode}</span>
