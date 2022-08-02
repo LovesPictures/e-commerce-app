@@ -8,7 +8,7 @@ import { ProductCards } from "./components/ProductCards/ProductCards";
 // import { ProductPromo } from "./components/ProductPromo/ProductPromo";
 // import { Collections } from "./components/Collections/Collections";
 // import { Newsletter } from "./components/Newsletter/Newsletter";
-// import { MapContact } from "./components/MapContact/MapContact";
+import { MapContact } from "./components/MapContact/MapContact";
 // import { HeadedList } from "./components/HeadedList/HeadedList";
 // import { Payment } from "./components/Payment/Payment";
 // import { Footer } from "./components/Footer/Footer";
@@ -26,7 +26,7 @@ function App() {
       {/* <ProductPromo /> */}
       {/* <Collections /> */}
       {/* <Newsletter /> */}
-      {/* <MapContact /> */}
+      <MapContact />
       {/* <HeadedList />
       <Payment />
       <Footer /> */}
