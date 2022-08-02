@@ -85,7 +85,7 @@
   /* object-fit: contain;
 } */
 
-.Card__text-container {
+.Card__text-container-d {
   text-align: center;  
   position: absolute;
   width: 100%;

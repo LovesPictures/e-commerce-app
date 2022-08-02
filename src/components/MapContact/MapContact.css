@@ -1,33 +1,30 @@
-/* Default styling -------------------- */ */
-
 /* Contact MAP --------------------------------------------------------------------- */
 
 /* refactor this for all cards */
-.Card {
+/* .Card {
   height: 0 auto;
   margin: 0 auto;
   text-align: center;
   padding: 150px 0 0 0;
-}
+} */
 
-/* 
-.cardP {
+.cardR {
   text-align: center;
 }
 
-.cardQ {
+.cardS {
   background-color: black;
   color: white;
 }
 
-/* DEFAULT text container   
-.Card__text-container-b{
-  height: 300px;
+/* DEFAULT text container   */
+.Card__text-container-c {
+  height: 450px;
   text-align: center;
   position: relative;
-  color: white;
+ 
   font-weight: 700;
-  /* padding: 80px 0pc; 
+  /* padding: 80px 0pc; */
 }
 
 .Card__text-Street {
@@ -48,7 +45,7 @@
   display: block;
 }
 
-/* number ----------------------------- 
+/* number ----------------------------- */
 .Card__text-CountryCode {
   font: 1.2rem var(--font-family-1);
   position: relative;
@@ -65,10 +62,9 @@
   display: inline;
 }
 
-
 .Card__text-Email {
   font: 1.2rem var(--font-family-1);
   position: relative;
   bottom: -100px;
   display: block;
-} */
+}

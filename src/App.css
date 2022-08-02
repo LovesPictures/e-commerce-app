@@ -65,3 +65,18 @@ body {
   background: var(--background-1);
   color: var(--font-color-1);
 }
+
+.Card__b {
+  height: 300px;
+  width: 16rem;
+  margin: 0 auto;
+}
+
+.Grid__container-b {
+  /* ex-Large  */
+  display: grid;
+  grid-gap: 10px;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  border: 5px solid pink;
+}

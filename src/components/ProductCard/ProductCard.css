@@ -1,0 +1,129 @@
+/* Default styling for product cards  -------------------- */
+/* ProductCards -------------------------------------------*/
+.Card__b {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  /* border: 2px solid pink; */
+}
+
+.Card__img-b {
+  width: 100%;
+  height: 80%;
+  /* position: absolute; */
+}
+
+/* DEFAULT text container   */
+.Card__text-container-b {
+  text-align: center;
+  position: absolute;
+}
+
+.Card__text-title-b {
+  line-height: 1.8rem;
+  text-align: center;
+  font: 1.2rem var(--font-family-1);
+  position: relative;
+  bottom: -245px;
+  left: 14px;
+}
+
+/* .Card__text-description {} */
+
+.Card__text-currency-b {
+  font: 1.2rem var(--font-family-1);
+  position: absolute;
+  bottom: -270px;
+  left: 15px;
+  display: inline;
+}
+
+.Card__text-price-b {
+  line-height: 1.8rem;
+  font: 1.2rem var(--font-family-1);
+  position: absolute;
+  bottom: -270px;
+  left: 25px;
+}
+
+/* hover Cart and options ---------------------------- */
+.Cart__container-b {
+  position: absolute;
+  bottom: -55px;
+  width: 100%;
+  height: 55px;
+  overflow: hidden;
+  z-index: 2;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.3s;
+  background-color: #f8f8f8;
+
+  /* centre items */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card__b:hover > .Cart__container-b {
+  bottom: 0px;
+  /* height: 50px; */
+}
+
+.Favorites-b {
+  display: inline;
+  border-radius: 4px;
+  background-color: black;
+  height: 100%;
+  padding: 0px 5px;
+  margin: 0px 3px;
+
+  /* centre item */
+  display: flex;
+  align-items: center;
+}
+
+/* these have generic styling - may ned to make them specific to teh compenent */
+.Cart {
+  display: inline;
+  border-radius: 4px;
+  background-color: black;
+  padding: 0px 5px;
+  margin: 0px 3px;
+  height: 100%;
+
+  /* centre items */
+  display: flex;
+  align-items: center;
+  /* remainig width  ? */
+  width: 70%;
+}
+.Option {
+  display: inline;
+  border-radius: 4px;
+  background-color: black;
+  padding: 0px 5px;
+  margin: 0px 3px;
+  height: 100%;
+  /* centre item */
+  display: flex;
+  align-items: center;
+  /* remainig width ? */
+  width: 70%;
+}
+.QuickView {
+  display: inline;
+  border-radius: 4px;
+  background-color: black;
+
+  height: 100%;
+  padding: 0px 5px;
+  margin: 0px 3px;
+
+  /* centre item */
+  display: flex;
+  align-items: center;
+}
+
+/* ProductCards End-------------------------------------------*/
