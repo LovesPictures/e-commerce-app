@@ -2,6 +2,8 @@ import React from "react";
 import "./ProductCards.css";
 import { ProductCard } from "../ProductCard/ProductCard";
 
+import "./ProductCards.css";
+
 export const ProductCards = () => {
   return (
     <div className="Grid__container-b">
