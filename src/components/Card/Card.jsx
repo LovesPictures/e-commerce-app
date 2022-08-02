@@ -7,7 +7,7 @@ export const Card = (props) => {
     <div className="Card {props.type === 'A' ? 'Card--A' : 'Card--B'}">
       {/* Notes: alt tag and why "" because the HTML will be returning a string */}
       <img src={props.img} alt="{props.title}" className="Card__img" />
-      <div className="Card__text-container">
+      <div className="Card__text-container-a">
         <h2 className="Card__text-title">{props.title}</h2>
         <p className="Card__text-description">{props.description}</p>
       </div>

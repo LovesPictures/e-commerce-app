@@ -1,7 +1,7 @@
  .Banner__container  {
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 100%;
+    /* width: 100%; */
     height:0;
     position: relative;
   /*   calculated on the the width ? */
@@ -16,7 +16,7 @@
     top:0;
     left: 0;
     width:100%;
-    height:100%;  
+    height:90%;  
     overflow: hidden;
   }
   
@@ -54,11 +54,13 @@
     z-index: 1000;
     width:100%;
   }
+
   .dot {
     display: inline-block;
     border-radius: 50%;
     border: var(--border-style-1);
-    padding: 6px;
+    /* padding: 6px; */
+    padding:calc(0.15em + 0.3vw);
     margin: 10px 5px;
   }
   
@@ -77,18 +79,21 @@
   
 
 .Headline__container {
-  top: 40%;
-  left: 120px;
+  top: 20%;
+  /* left: 70px; */
+  left: calc(0.75em + 4vw);
   position: absolute;
   font: inherit;
   font-size: 15px;
+  
   margin: 10px 0;
 }
 
 .Shop__name {
   position: relative;
   font: inherit;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: calc(0.75em + 1vw);
   margin: 5px 0;
   letter-spacing: 3px;
 }
@@ -96,9 +101,11 @@
 .Headline__season {
   position: relative;
   font: inherit;
-  font-size: 60px;
+  /* font-size: 60px; */
+  font-size: calc(0.95em + 4vw);
   margin: 5px 0;
 }
+
 span {
   font-weight: 600;
 }
@@ -106,15 +113,16 @@ span {
 .Headline__strapline {
   position: relative;
   font: inherit;
-  font-size: 20px;
-  font-size: 30px;
+  /* font-size: 30px; */
+  font-size: calc(0.75em + 2vw);
   margin: 5px 0;
 }
 
 .Headline__action {
   position: relative;
   font: inherit;
-  font-size: 20px;
+  /* font-size: 20px; */
+  font-size: calc(0.75em + 1vw);
   margin: 10px 0;
   font-weight: 600;
 }

@@ -10,6 +10,7 @@
   padding: 150px 0 0 0;
 }
 
+/* 
 .cardP {
   text-align: center;
 }
@@ -19,14 +20,14 @@
   color: white;
 }
 
-/* DEFAULT text container   */
-.Card__text-container-c{
+/* DEFAULT text container   
+.Card__text-container-b{
   height: 300px;
   text-align: center;
   position: relative;
   color: white;
   font-weight: 700;
-  /* padding: 80px 0pc; */
+  /* padding: 80px 0pc; 
 }
 
 .Card__text-Street {
@@ -47,7 +48,7 @@
   display: block;
 }
 
-/* number ----------------------------- */
+/* number ----------------------------- 
 .Card__text-CountryCode {
   font: 1.2rem var(--font-family-1);
   position: relative;
@@ -70,4 +71,4 @@
   position: relative;
   bottom: -100px;
   display: block;
-}
+} */
