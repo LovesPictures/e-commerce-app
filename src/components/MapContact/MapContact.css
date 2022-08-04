@@ -1,30 +1,30 @@
-/* Contact MAP --------------------------------------------------------------------- */
-
-/* refactor this for all cards */
-/* .Card {
+/* DEFAULT text container   */
+.Card__c {
   height: 0 auto;
   margin: 0 auto;
   text-align: center;
-  padding: 150px 0 0 0;
+  padding: 50px 0;
+}
+/* .cardQ {
+  /* background-color: black; 
 } */
 
-.cardR {
-  text-align: center;
-}
-
-.cardS {
-  background-color: black;
+.cardP {
+  background-color: black; 
+  height: 400px;
   color: white;
+  text-align: center;
 }
 
 /* DEFAULT text container   */
 .Card__text-container-c {
-  height: 450px;
   text-align: center;
   position: relative;
- 
   font-weight: 700;
-  /* padding: 80px 0pc; */
+}
+
+.Card__text-Street-Number-container {
+  text-align: center;
 }
 
 .Card__text-Street {
@@ -32,8 +32,8 @@
   font: 1.2rem var(--font-family-1);
   position: relative;
   bottom: -60px;
-  margin: 0px auto;
-  left: 0px;
+  /* margin: 0px auto; */
+  /* left: 0px; */
   display: inline;
 }
 
@@ -41,7 +41,7 @@
   font: 1.2rem var(--font-family-1);
   position: relative;
   bottom: -80px;
-  left: 0px;
+  /* left: 10px; */
   display: block;
 }
 
@@ -50,7 +50,7 @@
   font: 1.2rem var(--font-family-1);
   position: relative;
   bottom: -90px;
-  left: -5px;
+  /* left: -10px; */
   display: inline;
 }
 
@@ -58,7 +58,7 @@
   font: 1.2rem var(--font-family-1);
   position: relative;
   bottom: -90px;
-  left: 0px;
+  /* left: 0px; */
   display: inline;
 }
 

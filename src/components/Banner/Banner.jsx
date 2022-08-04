@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 
 import "./Banner.css";
-import "../Section/Section.css";
+// import "../Section/Section.css";
 
 export const Banner = () => {
   const slideShowRef = useRef(null);
@@ -11,11 +11,11 @@ export const Banner = () => {
       slideShowRef.current.classList.add("This");
 
       let index = 0;
-      //instead of document....slideShowRef.current - methods of DOM elements 
+      //instead of document....slideShowRef.current - methods of DOM elements
       let slides = slideShowRef.current.querySelectorAll(".image__slides");
       let dot = slideShowRef.current.querySelectorAll(".dot");
 
-      changeSlide(index, slides,dot);
+      changeSlide(index, slides, dot);
     }
   }, []);
 
@@ -66,15 +66,19 @@ export const Banner = () => {
             <div className="Headline__season">
               Exclusive <span> Winter </span>
             </div>
-            <div className="Headline__strapline">New contemporary Fashion </div>
-            <div className="Headline__action">SHOP NOW </div>
+            <div className="Headline__strapline ">
+              New contemporary Fashion{" "}
+            </div>
+            <div className="Headline__action Headline__active-effect">
+              SHOP NOW{" "}
+            </div>
+            {/* Needs a Route setup for page into the app */}
           </div>
         </div>
       </div>
     </div>
   );
 };
-
 
 function changeSlide(index, slides, dot) {
   // Loop slides in both directions
@@ -101,7 +105,7 @@ function changeSlide(index, slides, dot) {
   index++;
 
   // Waiting until change the next slide for 5 seconds
-  setTimeout(() => changeSlide(index,slides,dot), 5000);
+  setTimeout(() => changeSlide(index, slides, dot), 5000);
 }
 
 // changeSlide();
