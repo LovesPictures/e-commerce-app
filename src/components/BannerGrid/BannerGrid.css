@@ -1,23 +1,23 @@
-.grid-container {
-  height: 50vh;
-  margin: 0 15%;
-  display: grid;
-  /* font-size: 1.5rem; */
-  grid-gap: 1rem;
-  border: 5px solid green;
+/* 
+/* setting out the grid for the card ---------------------------------- */
+/* ex Large - desktop */
 
-  /* desktop */
-  grid-template-columns: 1fr 1fr 1fr;
+/* .grid-container {
+  display: grid;
+  grid-gap: 1rem; */
+  /* border: 5px solid green; */
+  /* grid-template-columns: 1.5fr 1.5fr 1.5fr;
   grid-template-areas:
-    "cardA    cardC  cardB"
-    "cardA    cardD  cardB";
-}
+    " cardA  cardC  cardB "
+    " cardA  cardD  cardB";
+} */
 
 /* general styling for template */
-.item {
+/* .item { */
+  /* background: #00b451; */
   /* padding: 1rem; */
-  text-align: center;
-  border: 2px solid pink;
+  /* text-align: center; */
+  /* border: 2px solid pink;
 }
 
 .cardA {
@@ -34,42 +34,51 @@
 
 .cardD {
   grid-area: cardD;
-}
+} */
 
-/* tablet - medium  */
-@media (max-width: 800px) {
-  .grid-container {
-    margin: 0;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows:  1fr 1fr;
+/* medium */
+/* @media screen and (max-width: 170px) {
+  .Card {
+    transition: all 0.2s ease-out;
+    height: 280px;
+    /* width: 14rem; 
+    margin: 0 auto;
+  }
+  .Card__img {
+    /* align-items: right; 
+    bottom: 0px;
+  }
+  .Grid__container-b {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-      "cardA    cardC  cardB"
-      "cardA    cardD  cardB";
+      ". cardA    cardB ."
+      ". cardC    cardD . ";
   }
-}
-/* tablet - large transition between 1080 - 1300? */
-@media (max-width: 1280px) {
-    .grid-container {
-      margin: 0;
-      grid-template-columns: 1fr 2fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      grid-template-areas:
-        "cardA    cardC  cardB"
-        "cardA    cardD  cardB";
-    }
+} */
+
+/* Small 
+@media (max-width: 600px) {
+  .Card {
+    height: 180px;
+    width: 100%;
   }
 
-/* Mobile - small */
-@media (max-width: 680px) {  
+  /* .Card__img {
+    height: 100%;
+    position: relative;
+    left: 300px;
+    bottom: -10px;
+  } 
+
   .grid-container {
-    margin: 0;
     grid-gap: 0.5rem;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "cardA"
-      "cardB"
       "cardC"
-      "cardD";
+      "cardD"
+      "cardB";
   }
-}
+} */

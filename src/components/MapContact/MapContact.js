@@ -1,7 +1,10 @@
 import * as React from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import Map, { Marker } from "react-map-gl";
-import { Card } from "../Card/Card";
+
+// import { Card } from "../Card/Card";
+
+import { MapContactCard } from "../MapContactCard/MapContactCard";
 
 import "./MapContact.css";
 
@@ -13,7 +16,7 @@ export const MapContact = () => {
     <div>
       <div className="Grid__container-c">
         <div className="Card__text-container-c">
-          <div className="cardR">
+          <div className="cardQ">
             <Map
               initialViewState={{
                 longitude: -0.1367,
@@ -21,7 +24,7 @@ export const MapContact = () => {
                 zoom: 13,
               }}
               mapboxAccessToken={MAPBOX_ACCESS_TOKEN}
-              style={{ width: "100%", height: 450 }}
+              style={{ width: "100%", height: 400 }}
               mapStyle="mapbox://styles/mapbox/light-v9"
             >
               <Marker
@@ -36,8 +39,9 @@ export const MapContact = () => {
 
         {/* Address */}
         <div className="Card__text-container-c">
-          <div className="cardS">
-            <Card
+          <div className="cardP">
+            {/* MapContactCard */}
+            <MapContactCard
               Logo=""
               Street=" 59 Newyork street"
               County="East Sussex"

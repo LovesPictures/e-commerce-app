@@ -1,8 +1,8 @@
 import React from "react";
 
-// import "./Card.css";
-// move to cards --------------------------------------
-export const Card = (props) => {
+import "./CategoryCard.css";
+
+export const CategoryCard = (props) => {
   return (
     <div className="Card">
       {/* ternary operator to select styles using the date type */}
@@ -14,7 +14,6 @@ export const Card = (props) => {
           <p className="Card__text-description Underline__action Underline__active-effect">
             {props.description}
           </p>
-          {/* <div className="Headline__action Headline__active-effect"> </div> */}
         </div>
       </div>
     </div>
