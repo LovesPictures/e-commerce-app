@@ -11,17 +11,10 @@ fieldset{
   margin: 20px 0px;
 }
 
-/* .Newsletter__form-body{
-    padding: 100px auto;
-border:none;    
-display: flex;
-flex-direction: column;
-} */
-
 .Newsletter__form-body {
   font-family: var(--font-family-2);
   font-size: var(--font-size-4);
-  padding: 50px 30px;
+  padding: 100px 0px;
   margin: 50px 0;
   box-sizing: border-box;
   position: relative;
@@ -31,17 +24,15 @@ flex-direction: column;
 .bgd__image {
   width: 100%;
   object-fit: cover;
+  object-position: 60% 50%;
 }
 
 input[type="email"] {
-  width: 50%;
-  min-width: 200px;
+  width: 40%;
+  min-width: 150px;
   padding: 10px;
   margin: 0px auto;
-  /* box-sizing: border-box; */
-  /* background: none; */
   outline: none;
-  /* resize: none; */
   border: 0;
   border: 2px solid var(--border-color-1);
   transition: all 0.3s;
@@ -53,13 +44,15 @@ input[type="email"]:focus:required:invalid {
 }
 
 #Newsletter__form-submit-Btn {
-    width: 50%;
-    min-width: 200px;
+  width: 40%;
+  min-width: 150px;
   padding: 8px 12px;
   font-family: var(--font-family-2);
-  background-color: var(--accent-1);
+
+  background-color: var(--accent-6);
+
   font-size: var(--font-size-3);
-  color: var(--font-color-1);
+  color: var(--font-color-2);
   margin: 10px 0px;
   border: none;
   
@@ -68,6 +61,6 @@ input[type="email"]:focus:required:invalid {
 }
 
 #Newsletter__form-submit-Btn:hover {
-  background-color: var(--accent-2);
-  color: var(--font-color-2);
+  background-color: var(--accent-3);
+  color: var(--font-color-1);
 }

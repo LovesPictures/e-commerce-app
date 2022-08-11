@@ -10,7 +10,7 @@ export const Newsletter = () => {
     // An function to prevent default refresh of the form onload
     event.preventDefault();
 
-    alert(" Thank you for singing up for my newsletter!");
+    alert(" Thank you for singing up for our newsletter!");
   };
 
   return (
