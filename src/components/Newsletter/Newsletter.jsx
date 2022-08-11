@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "../Section/Section.css";
+// import "../Section/Section.css";
 import "./Newsletter.css";
 
 export const Newsletter = () => {
@@ -10,29 +10,29 @@ export const Newsletter = () => {
     // An function to prevent default refresh of the form onload
     event.preventDefault();
 
-    alert(" Thank you for singing up for my newsletter!");
+    alert(" Thank you for singing up for our newsletter!");
   };
 
   return (
     <div id="Newsletter">
-      <div className="Section__Container">
+      {/* <div className="Section__Container"> */}
+      <div className="Newsletter__form-body" name="Newsletter">
+        <h2 className="Newsletter__Heading">Newsletter! </h2>
+        <p className="Newsletter__text">
+          It only takes a second to be the first to find out about our latest
+          news{" "}
+        </p>
 
-        <div className="Newsletter__form-body" name="Newsletter">
-          <h2>Newsletter! </h2>
-          <h2>
-            It only takes a second to be the first to find out about our latest
-            news{" "}
-          </h2>
-
-          <div className="Newsletter__signUp">         
+        <div className="Newsletter__signUp">
           <div className="Newsletter__background-img">
             <img
               className="bgd__image"
               src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/banner2233.jpg"
               alt="#"
             />
-</div>
-            <fieldset>
+          </div>
+          <fieldset>
+            <span>
               <form onSubmit={handleFormSubmit} id="Newsletter__form">
                 <div id="Newsletter__form-email">
                   <label id="Newsletter__form-label" for="email"></label>
@@ -56,12 +56,12 @@ export const Newsletter = () => {
                   Submit
                 </button>
               </form>
-              
-            </fieldset>
-          </div>
+            </span>
+          </fieldset>
         </div>
       </div>
     </div>
+    // </div>
     // </div>
   );
 };

@@ -1,88 +1,66 @@
-h2 {
-    /* margin: 8%; */
 
+fieldset{
+    border:none;  
+}
+
+.Newsletter__Heading {
+  margin: 20px 0px;
+}
+
+.Newsletter__text {
+  margin: 20px 0px;
 }
 
 .Newsletter__form-body {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height:0;
-    position: relative;
-    padding-top: 50%;
-    margin-right: 10px;
+  font-family: var(--font-family-2);
+  font-size: var(--font-size-4);
+  padding: 100px 0px;
+  margin: 50px 0;
+  box-sizing: border-box;
+  position: relative;
   }
 
-  .Newsletter__signUp {
-    position:absolute;
-    top:0;
-    left: 0;
-    width:100%;
-    height:100%;  
-    overflow: hidden;
-  }
-
-
-.Newsletter__background-img {
-    /* position:relative; */
-    /* top:0; */
-    /* left: 0; */
-    width:100%;
-    height:100%;  
-    overflow: hidden;
-    z-index: -1;
-    position:absolute;  
+.Newsletter__form-body,
+.bgd__image {
+  width: 100%;
+  object-fit: cover;
+  object-position: 60% 50%;
 }
 
-
-input[type='email'] {
-    width: 60%;
-    padding: 14px;
-    width: 75%;
-    left: 0;
-    float: left;
-    bottom: 250px;
-
-    box-sizing: border-box;
-    background: none;
-    outline: none;
-    resize: none;
-    border: 0;
-    border: 2px solid var(--border-color-1);
-    transition: all 0.3s;
+input[type="email"] {
+  width: 40%;
+  min-width: 150px;
+  padding: 10px;
+  margin: 0px auto;
+  outline: none;
+  border: 0;
+  border: 2px solid var(--border-color-1);
+  transition: all 0.3s;
 }
 
-input[type='email']:focus:required:invalid {
-    border: 2px solid var(--border-color-2);
-    box-shadow: var(--box-shadow-3);
+input[type="email"]:focus:required:invalid {
+  border: 2px solid var(--border-color-2);
+  box-shadow: var(--box-shadow-3);
 }
 
 #Newsletter__form-submit-Btn {
-    position: relative;
-    width: 20%;
-    right: 0;
-    float: right;
-    top: 250px;
+  width: 40%;
+  min-width: 150px;
+  padding: 8px 12px;
+  font-family: var(--font-family-2);
 
-    padding: 10px;
-    font-family: var(--font-family-2);
-    background-color: var(--accent-1);
-    font-size: var(--font-size-3);
-    color: var(--font-color-1);
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s;
+  background-color: var(--accent-6);
+
+  font-size: var(--font-size-3);
+  color: var(--font-color-2);
+  margin: 10px 0px;
+  border: none;
+  
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 #Newsletter__form-submit-Btn:hover {
-    background-color: var(--accent-2);
-    color: var(--font-color-2);
-
+  background-color: var(--accent-3);
+  color: var(--font-color-1);
 }
-
-fieldset {
-    border: 0;
-    padding: 0;
-    margin: 0;
-    min-width: 0;
-  }
