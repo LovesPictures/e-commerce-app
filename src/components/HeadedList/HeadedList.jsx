@@ -1,10 +1,7 @@
 import React from "react";
 import "./HeadedList.css";
 
-//   return <div id="HeadedList">HeadedList</div>;
-// };
-
-//export a named export wirh {const} - if export default no {} needed
+//export a named export with {const} - if export default no {} needed
 import { HeadedListCard } from "../HeadedListCard/HeadedListCard";
 
 export const HeadedList = () => {
