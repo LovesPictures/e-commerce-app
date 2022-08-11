@@ -7,7 +7,7 @@ import { ProductCards } from "./components/ProductCards/ProductCards";
 // import { ProductFilter } from "./components/ProductFilter/ProductFilter";
 // import { ProductPromo } from "./components/ProductPromo/ProductPromo";
 // import { Collections } from "./components/Collections/Collections";
-// import { Newsletter } from "./components/Newsletter/Newsletter";
+import { Newsletter } from "./components/Newsletter/Newsletter";
 import { MapContact } from "./components/MapContact/MapContact";
 import { HeadedList } from "./components/HeadedList/HeadedList";
 // import { Payment } from "./components/Payment/Payment";
@@ -25,7 +25,7 @@ function App() {
       <ProductCards />
       {/* <ProductPromo /> */}
       {/* <Collections /> */}
-      {/* <Newsletter /> */}
+      <Newsletter />
       <MapContact />
       <HeadedList />
       {/*<Payment /> */}

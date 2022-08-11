@@ -11,7 +11,7 @@
 :root {
   --background-1: #ffff;
   --background-2: #f8f8f8;
-  --background-3: #e8e316cc;
+  --background-3: hwb(59 9% 9% / 0.8);
   --background-4: #000;
 
   --accent-1: #e8e316cc;

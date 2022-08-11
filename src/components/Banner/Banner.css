@@ -98,11 +98,12 @@
   margin: 5px 0;
   letter-spacing: 3px;
 }
-
+ /*refactor for all components and put this in the app.css */
 .Headline__season {
   position: relative;
   font: inherit;
-  font-size: calc(0.95em + 4vw);
+  /* put this in the variables app.css */
+  font-size: calc(0.95em + 4vw);   /* use pixels  */
   margin: 5px 0;
 }
 
