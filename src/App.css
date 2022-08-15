@@ -80,3 +80,20 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   /* border: 5px solid pink; */
 }
+
+
+/* Small */
+@media (max-width: 600px) {
+  .Card {
+    height: 180px;
+    width: 100%;
+  }
+
+  .Card__img  {
+    height: 16rem;
+    position: relative;
+    /* left: 300px; */
+    bottom: 0px;
+  }
+
+}
