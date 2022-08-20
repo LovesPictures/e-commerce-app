@@ -1,6 +1,7 @@
 import * as React from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import Map, { Marker } from "react-map-gl";
+// import { NavigationControl } from "react-map-gl";
 
 // import { Card } from "../Card/Card";
 
@@ -33,12 +34,13 @@ export const MapContact = () => {
                 anchor="bottom"
                 /* <img src="./pin.png" /> */
               />
+              {/* <NavigationControl /> */}
             </Map>
           </div>
         </div>
 
         {/* Address */}
-        <div className="Card__text-container-c">
+        <div>
           <div className="cardP">
             {/* MapContactCard */}
             <MapContactCard

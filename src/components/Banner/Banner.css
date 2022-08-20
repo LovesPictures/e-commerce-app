@@ -22,7 +22,7 @@
   
   .bgd__image {
     z-index: -1;
-    position:absolute;  
+    position:absolute; 
   }
   
   .animated__image-container {
@@ -38,6 +38,7 @@
     height:100%;
   }
   
+  /* rename this  */
   img {
     position: relative;
     bottom: 0px;
