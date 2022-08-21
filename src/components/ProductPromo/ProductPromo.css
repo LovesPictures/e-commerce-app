@@ -1,0 +1,48 @@
+.ProductPromo__container {
+  margin: 20px 0 10px 0;
+  z-index: -1;
+  position: relative;
+  height: 50vh;
+}
+
+/* background image  */
+.ProductPromo__background-img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.ProductPromo__overlay-img {
+  position: relative;
+  height: 100%;
+  float: right;
+}
+
+.ProductPromo__banner-img {
+  margin: 0 10px;
+  height: 30%;
+  position: relative;
+  margin: 130px 0 0 40px;
+}
+
+#ProductPromo__form-submit-Btn {
+  padding: 8px 12px;
+  font-family: var(--font-family-2);
+  background-color: var(--accent-6);
+  font-size: var(--font-size-3);
+  color: var(--font-color-2);
+  margin: 20px 40px;
+  border: none;
+  min-width: 12%;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: block;
+  content: "\f105";
+}
+
+#Newsletter__form-submit-Btn:hover {
+  background-color: var(--accent-2);
+  color: var(--font-color-2);
+}

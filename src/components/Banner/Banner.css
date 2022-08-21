@@ -39,7 +39,7 @@
   }
   
   /* rename this  */
-  img {
+  .image__slides > img {
     position: relative;
     bottom: 0px;
     overflow: hidden;
