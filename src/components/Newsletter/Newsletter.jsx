@@ -23,14 +23,14 @@ export const Newsletter = () => {
           news{" "}
         </p>
 
+        <div className="Newsletter__img-container">
+          <img
+            className="bgd__image"
+            src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/banner2233.jpg"
+            alt="#"
+          />
+        </div>
         <div className="Newsletter__signUp">
-          <div className="Newsletter__background-img">
-            <img
-              className="bgd__image"
-              src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/banner2233.jpg"
-              alt="#"
-            />
-          </div>
           <fieldset>
             <span>
               <form onSubmit={handleFormSubmit} id="Newsletter__form">

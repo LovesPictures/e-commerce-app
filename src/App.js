@@ -5,7 +5,7 @@ import { CategoryCards } from "./components/CategoryCards/CategoryCards";
 // import { BannerGrid } from "./components/BannerGrid/BannerGrid";
 import { ProductCards } from "./components/ProductCards/ProductCards";
 // import { ProductFilter } from "./components/ProductFilter/ProductFilter";
-// import { ProductPromo } from "./components/ProductPromo/ProductPromo";
+import { ProductPromo } from "./components/ProductPromo/ProductPromo";
 // import { Collections } from "./components/Collections/Collections";
 import { Newsletter } from "./components/Newsletter/Newsletter";
 import { MapContact } from "./components/MapContact/MapContact";
@@ -23,7 +23,7 @@ function App() {
       {/* <BannerGrid /> */}
       {/* <ProductFilter /> */}
       <ProductCards />
-      {/* <ProductPromo /> */}
+      <ProductPromo />
       {/* <Collections /> */}
       <Newsletter />
       <MapContact />
