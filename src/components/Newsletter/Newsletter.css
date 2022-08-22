@@ -16,7 +16,7 @@ fieldset{
   font-family: var(--font-family-2);
   font-size: var(--font-size-4);
   padding: 100px 0px;
-  margin: 50px 0;
+  /* margin: 50px 0; */
   box-sizing: border-box;
   position: relative;
   width:100%;
@@ -28,15 +28,19 @@ fieldset{
   top:0px;
   width: 100%;
   object-fit: cover;
-  Height:100%
-
+  Height:100%;
+  overflow: hidden;
 }
-/* the main image */
+
+/* rename this in NewLetter and Banner */
 .bgd__image {
   position:absolute;
   top:0px;
-  height: 100%;
   object-fit: cover;
+  /* for Banner */
+  height: 100%;
+  /* for Newsletter 
+   width: 100%; */
   /* object-position: 70% 40%; */
   /* height: 400px; */
 }
