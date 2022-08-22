@@ -1,48 +1,69 @@
+
+/* 
+.CardR 
+.CardS
+*/
+
+
+/* DEFAULT text container   */
 .ProductPromo__container {
-  margin: 20px 0 10px 0;
-  z-index: -1;
-  position: relative;
-  height: 50vh;
-}
-
-/* background image  */
-.ProductPromo__background-img {
-  position: absolute;
-  width: 100%;
-  object-fit: cover;
-  height: 50vh;
-  overflow: hidden;
-}
-
-.ProductPromo__overlay-img {
-  position: relative;
-  height: 100%;
-  float: right;
-}
-
-.ProductPromo__banner-img {
-  margin: 0 10px;
-  height: 30%;
-  position: relative;
-  margin: 130px 0 0 40px;
-}
-
-#ProductPromo__form-submit-Btn {
-  padding: 8px 12px;
-  font-family: var(--font-family-2);
-  background-color: var(--accent-6);
-  font-size: var(--font-size-3);
-  color: var(--font-color-2);
-  margin: 20px 40px;
-  border: none;
-  min-width: 12%;
-  cursor: pointer;
-  transition: all 0.3s;
-  display: block;
-  content: "\f105";
-}
-
-#Newsletter__form-submit-Btn:hover {
-  background-color: var(--accent-2);
-  color: var(--font-color-2);
-}
+    position: relative;
+  }
+  
+  /* overall container */
+  #ProductPromo {
+    z-index: -1;
+  }
+  
+  /* background - CardR & CardS  */
+  .ProductPromo__background-img {
+    position: absolute;
+    /* width: calc(60% + 100px); */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  /* card left - sales banner */
+  .ProductPromo__banner-img {
+    margin: 0 10px;
+    height: calc(50% - 130px);
+    position: relative;
+    margin: 130px 0 0 60px;
+    overflow: hidden;
+    transition: all 0.3s;
+  }
+  
+  /* card left buy now button */
+  #ProductPromo__form-submit-Btn {
+    padding: 8px 12px;
+    font-family: var(--font-family-2);
+    background-color: var(--accent-6);
+    font-size: var(--font-size-3);
+    color: var(--font-color-2);
+    margin: 20px 60px;
+    border: none;
+    min-width: 12%;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: block;
+    z-index: 100;
+  }
+  
+  #ProductPromo__form-submit-Btn:hover {
+    background-color: pink;
+    color: var(--font-color-2);
+  }
+  
+  /* cards right - CardS - banner image------------------*/
+  .ProductPromo__overlay-img {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    /* object-position: bottom; */
+  }
+  
