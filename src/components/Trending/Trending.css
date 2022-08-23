@@ -1,13 +1,56 @@
-/* #Trending {
-    background-color: #fff;
-    border: 5px solid #ff00f2;
-    height: 50vh;
-} */
+/* DEFAULT text container   */
+.Trending__container {
+  position: relative;
+  /* width: 100vw; */
+}
 
+/* overall container */
+#Trending {
+  z-index: -1;
+}
 
-/* 
-.bgd__image {
+/* card images ------------------*/
+.Trending__banner-img {
+  margin: 0px;
+  height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: 60% 50%;
+}
+
+/* card left buy now button */
+#Trending__submit-Btn-1 {
+  position: absolute;
+  padding: 8px 12px;
+  font-family: var(--font-family-2);
+  background-color: var(--accent-6);
+  font-size: var(--font-size-3);
+  color: var(--font-color-2);
+  /* margin: -100px 0 auto 10px; */
+  margin: -5.5rem 0 auto 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: block;
+}
+#Trending__submit-Btn-1:hover {
+  background-color: var(--background-5);
+  color: var(--font-color-6);
+}
+
+/* .Description__container  {
+  position: relative;
+
 } */
+
+.Trending__container > .Trending__label {
+  position: absolute;
+  background-color:var(--background-5);
+  text-align: center;
+  color: #000;
+  margin: 5rem 0 auto 10px;
+  line-height: 1;
+  font-size: var(--font-size-3);
+  font-family: var(--font-family-2);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}

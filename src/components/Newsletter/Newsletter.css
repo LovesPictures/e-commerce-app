@@ -47,7 +47,7 @@ fieldset{
 
 
 input[type="email"] {
-  width: 40%;
+  width: 30%;
   min-width: 150px;
   padding: 10px;
   margin: 0px auto;
@@ -55,6 +55,7 @@ input[type="email"] {
   border: 0;
   border: 2px solid var(--border-color-1);
   transition: all 0.3s;
+  display: inline;
 }
 
 input[type="email"]:focus:required:invalid {
@@ -63,11 +64,11 @@ input[type="email"]:focus:required:invalid {
 }
 
 #Newsletter__form-submit-Btn {
-  width: 40%;
+  width: 10%;
   min-width: 150px;
   padding: 8px 12px;
   font-family: var(--font-family-2);
-
+ 
   background-color: var(--accent-6);
 
   font-size: var(--font-size-3);
@@ -80,6 +81,6 @@ input[type="email"]:focus:required:invalid {
 }
 
 #Newsletter__form-submit-Btn:hover {
-  background-color: var(--accent-3);
-  color: var(--font-color-1);
+  background-color: var(--background-5);
+  color: var(--font-color-6);
 }

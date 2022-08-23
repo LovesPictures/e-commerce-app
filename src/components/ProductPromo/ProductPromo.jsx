@@ -5,7 +5,7 @@ import "./ProductPromo.css";
 // import "./index.css"; /* App.css */
 // import "./Card.css";
 
-export function ProductPromo() {
+export const ProductPromo = () => {
   return (
     <div id="ProductPromo">
       <div className="ProductPromo__container">
@@ -41,4 +41,4 @@ export function ProductPromo() {
       </div>
     </div>
   );
-}
+};
