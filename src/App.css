@@ -13,6 +13,7 @@
   --background-2: #f8f8f8;
   --background-3: #e8e517cc;
   --background-4: #000;
+  --background-5: #00ff00;
 
   --accent-1: #e8e316cc;
   --accent-2: #68656899;
@@ -73,13 +74,17 @@ body {
 }
 
 .Grid__container-b {
-  /* ex-Large  */
   display: grid;
   grid-gap: 5px;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  /* border: 5px solid pink; */
 }
+
+/* Trending  ---------------*/
+/* .Grid__container-d {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+} */
 
 
 /* Small */

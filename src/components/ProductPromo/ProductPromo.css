@@ -53,8 +53,8 @@
   }
   
   #ProductPromo__form-submit-Btn:hover {
-    background-color: pink;
-    color: var(--font-color-2);
+    background-color: var(--background-5);
+  color: var(--font-color-6);
   }
   
   /* cards right - CardS - banner image------------------*/

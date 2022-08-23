@@ -6,7 +6,7 @@ import { CategoryCards } from "./components/CategoryCards/CategoryCards";
 import { ProductCards } from "./components/ProductCards/ProductCards";
 // import { ProductFilter } from "./components/ProductFilter/ProductFilter";
 import { ProductPromo } from "./components/ProductPromo/ProductPromo";
-// import { Collections } from "./components/Collections/Collections";
+import { Trending } from "./components/Trending/Trending";
 import { Newsletter } from "./components/Newsletter/Newsletter";
 import { MapContact } from "./components/MapContact/MapContact";
 import { HeadedList } from "./components/HeadedList/HeadedList";
@@ -24,7 +24,7 @@ function App() {
       {/* <ProductFilter /> */}
       <ProductCards />
       <ProductPromo />
-      {/* <Collections /> */}
+      <Trending />
       <Newsletter />
       <MapContact />
       <HeadedList />
