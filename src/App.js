@@ -19,14 +19,17 @@ function App() {
     <div>
       <Header />
       <Banner />
-      <CategoryCards />
-      {/* <BannerGrid /> */}
-      {/* <ProductFilter /> */}
-      <ProductCards />
-      <ProductPromo />
-      <Trending />
-      <Newsletter />
-      <MapContact />
+      <div className="Site__width">
+        <CategoryCards />
+
+        {/* <BannerGrid /> */}
+        {/* <ProductFilter /> */}
+        <ProductCards />
+        <ProductPromo />
+        <Trending />
+        <Newsletter />
+        <MapContact />
+      </div>
       <HeadedList />
       {/*<Payment /> */}
       {/* <Footer /> */}

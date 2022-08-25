@@ -179,7 +179,7 @@ export const ProductCards = () => {
       {/* </div> */}
 
       {/* <div className="item cardO"> */}
-      <ProductCard
+      {/* <ProductCard
         img=" https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/03/p_4.jpg"
         title="Bluetooth cardO"
         description="This is the description "
@@ -192,7 +192,7 @@ export const ProductCards = () => {
         Cart="Add to Cart"
         Option="Select an Option"
         QuickView="🔎"
-      />
+      /> */}
     </div>
   );
 };

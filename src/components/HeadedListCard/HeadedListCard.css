@@ -1,11 +1,12 @@
 
 .cardR {
   background-color: var(--accent-6);
+  margin: 20px 0px 0px 0px;
 }
 
 /* DEFAULT text container   */
 .Card__text-container-e {
-  height: 300px;
+  height: 200px;
   text-align: center;
   position: relative;
   color: var(--font-color-2);
@@ -23,14 +24,13 @@
 
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: var(--accent-3);
-  
+  text-decoration-color: var(--accent-3);  
 }
 
 .Card__AboutUs {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -60px;
+  bottom: -50px;
   left: 0px;
   display: block;
 }
@@ -38,7 +38,7 @@
 .Card__LatestPost {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -80px;
+  bottom: -70px;
   left: 0px;
   display: block;
 }
@@ -46,7 +46,7 @@
 .Card__ContactUs {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -110px;
+  bottom: -90px;
   left: 0px;
   display: block;
 }
@@ -76,7 +76,7 @@
 .Card__Cart {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -80px;
+  bottom: -70px;
   left: 0px;
   display: block;
 }
@@ -84,7 +84,7 @@
 .Card__WishList {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -110px;
+  bottom: -90px;
   left: 0px;
   display: block;
 }
@@ -92,7 +92,7 @@
 .Card__OrderHistory {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -140px;
+  bottom: -110px;
   left: 0px;
   display: block;
 }
@@ -119,18 +119,18 @@
   display: block;
 }
 
-.Card__Delivery {
+.Card__Returns {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -110px;
+  bottom: -70px;
   left: 0px;
   display: block;
 }
 
-.Card__Returns {
+.Card__Delivery {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -80px;
+  bottom: -90px;
   left: 0px;
   display: block;
 }
@@ -138,7 +138,7 @@
 .Card__Privacy {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -140px;
+  bottom: -110px;
   left: 0px;
   display: block;
 }

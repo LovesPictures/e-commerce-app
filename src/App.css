@@ -102,3 +102,8 @@ body {
   }
 
 }
+
+.Site__width {
+ width: calc(70vw + 10vw);
+ margin: 0 auto;
+}

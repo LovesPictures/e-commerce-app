@@ -1,6 +1,7 @@
 /* DEFAULT text container   */
 .Trending__container {
   position: relative;
+  margin: 10px 0px 10px 0px;
   /* width: 100vw; */
 }
 
