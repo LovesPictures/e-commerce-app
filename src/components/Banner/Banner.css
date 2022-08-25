@@ -23,6 +23,10 @@
   .bgd__image {
     z-index: -1;
     position:absolute; 
+    top:0px;
+    object-fit: cover;
+    height: 100%;
+    overflow: hidden;
   }
   
   .animated__image-container {

@@ -24,6 +24,7 @@ fieldset{
   }
 
 .Newsletter__img-container{
+  z-index: -1;
   position:absolute;
   top:0px;
   width: 100%;
@@ -33,16 +34,13 @@ fieldset{
 }
 
 /* rename this in NewLetter and Banner */
-.bgd__image {
-  position:absolute;
+.bgd__image-Newsletter {
+  z-index: -1;
   top:0px;
   object-fit: cover;
-  /* for Banner */
-  /* height: 100%; */
-  /* for Newsletter 
-   width: 100%; */
-  /* object-position: 70% 40%; */
-  /* height: 400px; */
+  height: 100%;
+  width: 100%;
+  margin: 85px 0px 90px 0px;
 }
 
 

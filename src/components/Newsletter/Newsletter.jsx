@@ -25,7 +25,7 @@ export const Newsletter = () => {
 
         <div className="Newsletter__img-container">
           <img
-            className="bgd__image"
+            className="bgd__image-Newsletter"
             src="https://www.radiustheme.com/demo/wordpress/themes/metro/wp-content/uploads/2019/11/banner2233.jpg"
             alt="#"
           />
