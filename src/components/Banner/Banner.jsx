@@ -67,7 +67,7 @@ export const Banner = () => {
               Exclusive <span> Winter </span>
             </div>
             <div className="Headline__strapline ">
-              New contemporary Fashion{" "}
+              New Contemporary Fashion{" "}
             </div>
             <div className="Headline__action Headline__active-effect">
               SHOP NOW{" "}

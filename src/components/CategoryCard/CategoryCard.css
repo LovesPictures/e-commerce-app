@@ -20,15 +20,15 @@
 
 .Card__text-title {
   font-weight: 520;
-  font: 1.1rem var(--font-family-1);
+  font: 1.1rem var(--font-family-2);
   position: absolute;
-  bottom: 70px;
+  bottom: 85px
 }
 
 .Card__text-description {
   line-height: 1.8rem;
   font-weight: 800;
-  font: 1.2rem var(--font-family-1);
+  font: 1.2rem var(--font-family-2);
   position: absolute;
   bottom: 45px;
 }
@@ -36,11 +36,11 @@
 /* card A ----------------------------------------- */
 .cardA .Card__img {
   position: relative;
-  right: 50%;
+  right: 20%;
   /* left: calc(100% - 25rem); */
   z-index: -10;
   /* bottom: 0px  */
-  bottom: -40px;
+  /* bottom: -40px; */
 }
 
 .cardA .Card__text-title {
@@ -60,8 +60,9 @@
 /* card B ----------------------------------------- */
 .cardB .Card__img {
   position: relative;
-  left: 10%;
+  left: 140px;
   z-index: -1;
+  /* bottom: -40px; */
 }
 
 .cardB .Card__text-title {

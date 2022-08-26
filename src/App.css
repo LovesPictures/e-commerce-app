@@ -79,28 +79,11 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 }
 
-/* Trending  ---------------*/
-/* .Grid__container-d {
+/* HeadedList  ---------------*/
+.Grid__container-e {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-} */
-
-
-/* Small */
-@media (max-width: 600px) {
-  .Card {
-    height: 180px;
-    width: 100%;
-  }
-
-  .Card__img  {
-    height: 16rem;
-    position: relative;
-    /* left: 300px; */
-    bottom: 0px;
-  }
-
+  grid-gap: 0px;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 }
 
 .Site__width {

@@ -13,7 +13,7 @@ export const Trending = () => {
   return (
     <div id="Trending">
       <div className="Trending__container">
-        <div className="Grid__container-b">
+        <div className="Grid__container-e">
           {/* Card  1*/}
           <div className="CardT">
             <div className="Trending__container">

@@ -7,9 +7,9 @@ import "./ProductPromo.css";
 
 export const ProductPromo = () => {
   return (
-    <div id="ProductPromo">
+    <div id="Sale">
       <div className="ProductPromo__container">
-        <div className="Grid__container-c">
+        <div className="Grid__container-b">
           <div className="CardR">
             <img
               className="ProductPromo__background-img"

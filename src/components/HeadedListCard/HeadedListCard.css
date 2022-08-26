@@ -1,16 +1,15 @@
 
 .cardR {
   background-color: var(--accent-6);
-  margin: 20px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 /* DEFAULT text container   */
 .Card__text-container-e {
-  height: 200px;
+  height: 160px;
   text-align: center;
   position: relative;
   color: var(--font-color-2);
-  font-weight: 700;
 }
 
 /* card 1 -------------------------------- */
@@ -19,7 +18,7 @@
   line-height: 1.8rem;
   font: 1.4rem var(--font-family-1);
   position: relative;
-  bottom: -10px;
+  bottom: 10px;
   display: block;
 
   text-decoration: underline;
@@ -30,7 +29,7 @@
 .Card__AboutUs {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -50px;
+  bottom: -30px;
   left: 0px;
   display: block;
 }
@@ -38,7 +37,7 @@
 .Card__LatestPost {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -70px;
+  bottom: -50px;
   left: 0px;
   display: block;
 }
@@ -46,7 +45,7 @@
 .Card__ContactUs {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -90px;
+  bottom: -70px;
   left: 0px;
   display: block;
 }
@@ -57,7 +56,7 @@
   line-height: 1.8rem;
   font: 1.4rem var(--font-family-1);
   position: relative;
-  bottom: -10px;
+  bottom: 10px;
   display: block;
 
   text-decoration: underline;
@@ -68,7 +67,7 @@
 .Card__Login {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -50px;
+  bottom: -30px;
   left: 0px;
   display: block;
 }
@@ -76,7 +75,7 @@
 .Card__Cart {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -70px;
+  bottom: -50px;
   left: 0px;
   display: block;
 }
@@ -84,7 +83,7 @@
 .Card__WishList {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -90px;
+  bottom: -70px;
   left: 0px;
   display: block;
 }
@@ -92,7 +91,7 @@
 .Card__OrderHistory {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -110px;
+  bottom: -90px;
   left: 0px;
   display: block;
 }
@@ -103,7 +102,7 @@
   line-height: 1.8rem;
   font: 1.4rem var(--font-family-1);
   position: relative;
-  bottom: -10px;
+  bottom: 10px;
   display: block;
 
   text-decoration: underline;
@@ -114,7 +113,7 @@
 .Card__Payment {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -50px;
+  bottom: -30px;
   left: 0px;
   display: block;
 }
@@ -122,7 +121,7 @@
 .Card__Returns {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -70px;
+  bottom: -50px;
   left: 0px;
   display: block;
 }
@@ -130,7 +129,7 @@
 .Card__Delivery {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -90px;
+  bottom: -70px;
   left: 0px;
   display: block;
 }
@@ -138,7 +137,7 @@
 .Card__Privacy {
   font: 1.2rem var(--font-family-1);
   position: relative;
-  bottom: -110px;
+  bottom: -90px;
   left: 0px;
   display: block;
 }

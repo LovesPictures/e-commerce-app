@@ -12,7 +12,7 @@ const MAPBOX_ACCESS_TOKEN =
 
 export const MapContact = () => {
   return (
-    <div>
+    <div id="Contact">
       <div className="Grid__container-c">
         <div className="Card__text-container-c">
           <div className="cardQ">
@@ -43,7 +43,6 @@ export const MapContact = () => {
           <div className="cardP">
             {/* MapContactCard */}
             <MapContactCard
-              Logo=""
               Street=" 59 Newyork street"
               County="East Sussex"
               CountryCode="Contact: +44 "

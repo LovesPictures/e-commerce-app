@@ -44,7 +44,7 @@ export const Newsletter = () => {
                     onChange={(event) => setUserEmail(event.target.value)}
                     className="form-control"
                     placeholder="Your Email Address"
-                    required
+                    required=""
                   />
                 </div>
 

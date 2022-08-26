@@ -40,7 +40,7 @@
   /* Small */
   @media (max-width: 600px) {
     .Card {
-      height: 180px;
+      height: 160px;
       width: 100%;
     }
   
@@ -48,15 +48,16 @@
       /* position: relative; */
       /* right: 100%; */
       /* left: 0rem; */
+      left: -5%;
       z-index: -1;
-      width: 10rem;
+      height: 10rem;
     }
 
     .cardB .Card__img {
-      position: relative;
-      left: 10%;
+      /* position: relative; */
+      left: -2040px;
       z-index: -1;
-      width: 10rem;
+      height: 10rem;
     }
     
     .grid-container {

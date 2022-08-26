@@ -1,4 +1,5 @@
 import "./App.css";
+import { Home } from "./components/Home/Home";
 import { Header } from "./components/Header/Header";
 import { Banner } from "./components/Banner/Banner";
 import { CategoryCards } from "./components/CategoryCards/CategoryCards";
@@ -17,11 +18,11 @@ import { HeadedList } from "./components/HeadedList/HeadedList";
 function App() {
   return (
     <div>
+      <Home />
       <Header />
       <Banner />
       <div className="Site__width">
         <CategoryCards />
-
         {/* <BannerGrid /> */}
         {/* <ProductFilter /> */}
         <ProductCards />

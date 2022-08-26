@@ -83,25 +83,21 @@
     background: var(--background-4);
   }
   
-
 .Headline__container {
   top: 20%;
-  /* left: 70px; */
   left: calc(0.75em + 4vw);
   position: absolute;
   font: inherit;
-  /* font-size: 12px; */
   font-size: max(1vw, 12px);  
-  margin: 10px 0;
+  margin: -18px 0;
   font-family: var(--font-family-1);
 }
 
 .Shop__name {
   position: relative;
   font: inherit;
-  /* font-size: 20px; */
   font-size: calc(0.75em + 1vw);
-  margin: 5px 0;
+  margin: 18px 5px;
   letter-spacing: 3px;
 }
  /*refactor for all components and put this in the app.css */
@@ -127,7 +123,7 @@ span {
 .Headline__action {
   position: relative;
   font-size: 1px;
-  font-size: calc(0.75em + 1vw);
+  font-size: calc(0.55em + 1vw);
   margin: 10px 0;
   font-weight: 600;
 }
