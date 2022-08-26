@@ -18,7 +18,7 @@ export const HeadedListCard = (props) => {
         <span className="Card__WishList">{props.WishList}</span>
         <span className="Card__OrderHistory">{props.OrderHistory}</span>
 
-        {/* carrd3 */}
+        {/* card3 */}
         <h2 className="Card__HelpSupport">{props.HelpSupport}</h2>
         <span className="Card__Payment">{props.Payment}</span>
         <span className="Card__Returns">{props.Returns}</span>

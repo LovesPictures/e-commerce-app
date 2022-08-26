@@ -13,12 +13,12 @@
   }
   
   /* general styling for template */
-  .item {
+  /* .item { */
     /* background: #00b451; */
     /* padding: 1rem; */
     /* text-align: center; */
-    border: 2px solid pink;
-  }
+    /* border: 2px solid pink; */
+  /* } */
   
   .cardA {
     grid-area: cardA;
@@ -45,16 +45,12 @@
     }
   
     .cardA .Card__img {
-      /* position: relative; */
-      /* right: 100%; */
-      /* left: 0rem; */
       left: -5%;
       z-index: -1;
       height: 10rem;
     }
 
     .cardB .Card__img {
-      /* position: relative; */
       left: -2040px;
       z-index: -1;
       height: 10rem;
