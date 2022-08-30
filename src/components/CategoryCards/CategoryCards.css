@@ -4,9 +4,9 @@
 
 .grid-container {
     display: grid;
-    grid-gap: 1rem;
+    /* grid-gap: 0.5rem; */
     /* border: 5px solid green; */
-    grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
       " cardA  cardC  cardB "
       " cardA  cardD  cardB";
@@ -39,10 +39,15 @@
   
   /* Small */
   @media (max-width: 600px) {
+    .grid-container{
+      width: 370px;
+      margin: 0 auto;
+    }
+/* 
     .Card {
       height: 160px;
-      width: 100%;
-    }
+      /* width: 100%; 
+    } */
   
     .cardA .Card__img {
       left: -5%;
@@ -66,4 +71,3 @@
         "cardB";
     }
   }
-  

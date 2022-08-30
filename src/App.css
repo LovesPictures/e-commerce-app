@@ -77,6 +77,9 @@ body {
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+
+  /* grid-auto-rows:20rem ; */
+  /* border: 3px solid pink */
 }
 
 /* HeadedList  ---------------*/
@@ -84,6 +87,7 @@ body {
   display: grid;
   grid-gap: 0px;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+
 }
 
 .Site__width {
