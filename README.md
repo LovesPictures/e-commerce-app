@@ -2,7 +2,7 @@
 
 Testing the card structure 
 
-![My Image](./src/components/img/Cards__test-1.PNG)
+![My Image](./src/components/img/siteImg.PNG)
 
 
 ## Available Scripts
